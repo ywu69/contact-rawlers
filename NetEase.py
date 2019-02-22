@@ -1,5 +1,7 @@
 #-*- coding: utf-8 -*-
 import sys
+import time
+
 import requests
 import re
 import csv
@@ -117,6 +119,7 @@ if __name__ == "__main__":
         if comInfoList == None:
             continue
         comInfoLists += comInfoList
+        time.sleep(3)
         #page += 1
         #print page
 
