@@ -112,6 +112,7 @@ if __name__ == '__main__':
                 
             numPage += 1
             print "%s out of %s pages crawled" %(numPage, totalPage)
+            time.sleep(5)
                 
     
 
